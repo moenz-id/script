@@ -35,3 +35,23 @@ This guide explains how to update your self-hosted n8n instance to the latest ve
 ## Usage Example
 
 After updating, you can verify the version:
+
+``` bash
+n8n --version
+```
+
+## Simple Ways
+
+Use the one-liner comand
+
+- using curl:
+
+   ``` bash
+   bash <(curl -sSL "https://raw.githubusercontent.com/moenz-id/script/main/bash/n8n%20self%20hosted/update%20n8n/update-npm.sh")
+   ```
+
+- Using wget:
+
+   ``` bash
+   bash <(wget -qO- "https://raw.githubusercontent.com/moenz-id/script/main/bash/n8n%20self%20hosted/update%20n8n/update-npm.sh")
+   ```
